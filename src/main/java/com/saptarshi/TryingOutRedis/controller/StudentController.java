@@ -6,11 +6,9 @@ import com.saptarshi.TryingOutRedis.entity.Student;
 import com.saptarshi.TryingOutRedis.repository.StudentRepository;
 import com.saptarshi.TryingOutRedis.service.StudentService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.cache.annotation.Cacheable;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @RequiredArgsConstructor

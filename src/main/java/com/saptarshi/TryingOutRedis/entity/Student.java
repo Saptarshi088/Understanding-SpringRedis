@@ -28,6 +28,7 @@ public class Student implements Serializable {
 
     private int marks;
 
+
     @Override
     public final boolean equals(Object o) {
         if (this == o) return true;
